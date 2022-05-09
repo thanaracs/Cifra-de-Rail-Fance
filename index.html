@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rail Fance</title>
+</head>
+
+<body>
+    <div>
+        <!-- CIFRADOR-->
+        <label for="palavra"><b>Palavra para cifrar:</b></label>
+        <input type="text" id="palavra" name="palavra"><br><br>
+        <input type="text" id="chave" name="chave" placeholder="chave"><br><br>
+        <label for="respostaCifrada"><b>Palavra cifrada:</b></label><br>
+        <textarea id="respostaCifrada" name="respostaCifrada" rows="4" cols="50">
+            O resultado aparecerá aqui!
+            </textarea>
+        <button id="btn-cifrador" onClick={cifrador()}>Cifrar</button>
+        <!-- DESCIFRAR-->
+        <button id="btn-descifrar" onClick={descifrador()}>Descifrar</button>
+    </div>
+
+    <script src="codigo.js"></script>
+</body>
+
+</html>
