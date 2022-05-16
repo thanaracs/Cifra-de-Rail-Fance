@@ -1,3 +1,4 @@
+// TODO autor: Thainara Carvalho
 function cifrador() {
     var linhasArray = [];
     var chave = document.getElementById('chave').value;
